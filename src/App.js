@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom'
 import './App.css'
 import Aside from './components/Aside'
-import NavBar from './components/NavBar'
+// import NavBar from './components/NavBar'
 
 const App = () => {
 
@@ -11,7 +11,7 @@ const App = () => {
 
 
     <div className='main-content'>
-    <NavBar/>
+    {/* <NavBar/> */}
 
     <section style={{
       scrollBehavior: 'smooth'

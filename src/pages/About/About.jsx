@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Service from "./Service"
-import { useEffect } from "react";
 import Testimonial from "./Testimonial";
 const servicesData = [
   {

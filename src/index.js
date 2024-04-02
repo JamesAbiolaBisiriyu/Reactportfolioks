@@ -7,27 +7,27 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Resume from './pages/Resume/Resume';
-import About from './pages/About/About';
-import Portfolio from './pages/Portfolio/Portfolio';
+// import Resume from './pages/Resume/Resume';
+// import About from './pages/About/About';
+// import Portfolio from './pages/Portfolio/Portfolio';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
     children:[
-      {
-        path:"/",
-        element:<About/>
-      },
-      {
-        path: '/resume',
-        element: <Resume/>
-      },
-      {
-        path:'portfolio',
-        element:<Portfolio/>
-      }
+      // {
+      //   path:"/",
+      //   element:<About/>
+      // },
+      // {
+      //   path: '/resume',
+      //   element: <Resume/>
+      // },
+      // {
+      //   path:'portfolio',
+      //   element:<Portfolio/>
+      // }
     ]
   },
 ]);
