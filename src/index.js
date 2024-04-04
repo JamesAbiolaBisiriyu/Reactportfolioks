@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
+  
   RouterProvider,
 } from "react-router-dom";
 // import Resume from './pages/Resume/Resume';
-// import About from './pages/About/About';
+import About from './pages/About/About';
 // import Portfolio from './pages/Portfolio/Portfolio';
 
 const router = createBrowserRouter([
@@ -16,10 +17,11 @@ const router = createBrowserRouter([
     path: "/",
     element: <App/>,
     children:[
-      // {
-      //   path:"/",
-      //   element:<About/>
-      // },
+      {
+        index:true,
+        element:<About/>
+        
+      },
       // {
       //   path: '/resume',
       //   element: <Resume/>
