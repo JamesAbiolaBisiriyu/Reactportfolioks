@@ -1,3 +1,4 @@
+import '../../App.css';
 
 const Service = ({title, icon, description}) => {
   return (
@@ -14,3 +15,4 @@ const Service = ({title, icon, description}) => {
 }
 
 export default Service
+

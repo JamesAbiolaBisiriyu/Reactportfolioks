@@ -3,14 +3,18 @@ import './App.css'
 import Aside from './components/Aside'
 import NavBar from './components/NavBar'
 
+
+
 const App = () => {
 
   return (
     <>
     <Aside/>
-    <div className='main-content'>
-    <NavBar/>
     <div style={{
+      scrollBehavior:'smooth'
+    }}>
+    <NavBar/>
+    <section style={{
       width:'40%',
       marginTop: '10rem',
       padding: '10px',
@@ -18,14 +22,24 @@ const App = () => {
       position:'fixed',
       top: 50, right: 500, left: 700, 
       color:'white',
+      // scrollBehavior: 'smooth',
+      // marginTop:'4rem'
     }}>
+
     <Outlet />
-    </div>
-    <section style={{
-      scrollBehavior: 'smooth'
-    }}>
+    {/* <div style={{    }}> */}
     
+
+    {/* </div> */}
+
+
     </section>
+    {/* <section style={{
+      scrollBehavior: 'smooth',
+      marginTop:'4rem'
+    }}>
+  
+    </section> */}
     </div>    
     </>
   )
