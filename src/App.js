@@ -27,12 +27,6 @@ const App = () => {
     }}>
 
     <Outlet />
-    {/* <div style={{    }}> */}
-    
-
-    {/* </div> */}
-
-
     </section>
     {/* <section style={{
       scrollBehavior: 'smooth',
